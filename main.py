@@ -43,7 +43,7 @@ class DiscordBot:
         # Posted by Asis, modified by community. See post 'Timeline' for change history
         # Retrieved 2025-12-25, License - CC BY-SA 4.0
 
-        channel = nextcord.utils.get(bot.get_all_channels(), id=1375791037691330640)
+        channel = nextcord.utils.get(bot.get_all_channels(), id=GAME_VC1)
         await channel.connect()
 
 
